@@ -1,0 +1,8 @@
+[
+    { "name": "Nombre1","email": "hello1@cypress.io","direccion": "Direc 1","dir": "Direc 1"},
+    { "name": "Nombre2","email": "hello2@cypress.io","direccion": "Direc 2","dir": "Direc 2"},
+    { "name": "Nombre3","email": "hello3@cypress.io","direccion": "Direc 3","dir": "Direc 3"},
+    { "name": "Nombre4","email": "hello4@cypress.io","direccion": "Direc 4","dir": "Direc 4"}
+
+]
+  

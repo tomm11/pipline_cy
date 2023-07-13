@@ -1,0 +1,46 @@
+// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+{
+	"Get Selector": {
+		  "prefix": "cyget",
+		  "body": [
+			"cy.get('${1:selector}')$0"
+		  ],
+		  "description": "Obtiene un elemento utilizando el selector"
+	},
+	  
+	"Cypress_base": {
+		  "scope": "scope",
+		  "prefix": "Cypress_base",
+		  "body": [
+			"// Shows commands",
+			"<reference types=\"Cypress\"/>",
+			"require('cypress-plugin-tab')",
+			"import 'cypress-fill-command'",
+			"require('@4tw/cypress-drag-drop')",
+			"",
+			"describe('${1:descripcion}', () => {",
+			"  it('${2:name}', () => {",
+			"    let time = 2000;",
+			"    cy.visit();",
+			"    cy.title();",
+			"  });",
+			"});"
+		  ],
+		  "description": "description"
+	}
+}
+	
+
+
+
+
